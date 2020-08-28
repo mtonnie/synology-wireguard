@@ -22,4 +22,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Invoke build script
-        run: IS_IN_CONTAINER 1 PACKAGE_ARCH=monaco DSM_VER=6.1 ./build.sh
+        run: IS_IN_CONTAINER=1 PACKAGE_ARCH=monaco DSM_VER=6.2 ./build.sh
